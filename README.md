@@ -1,4 +1,4 @@
-# GrapesJS Ostendis Preset
+# GrapesJS Ostendis Preset - Prototyp Webpage
 
 This preset configures GrapesJS to be used with some unique features and blocks for the [Ostendis E-Recrui­ting sys­tem](https://www.ostendis.com/en)
 
