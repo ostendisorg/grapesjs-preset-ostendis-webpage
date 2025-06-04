@@ -24,15 +24,9 @@ const plugin: Plugin<PluginOptions> = async (
   const options: RequiredPluginOptions = {
     blocks: [],
     block: () => ({}),
-    juiceOpts: {
-      applyStyleTags: false,
-      removeStyleTags: false,
-      preserveImportant: false,
-    },
     usedOstBlocks: [],
     cmdOpenExport: "gjs-open-export-template",
     cmdOpenImport: "gjs-open-import-template",
-    cmdInlineHtml: "",
     codeViewerTheme: "hopscotch",
     inlineCss: false,
     updateStyleManager: true,

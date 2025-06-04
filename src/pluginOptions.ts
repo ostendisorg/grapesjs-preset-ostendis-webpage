@@ -1,5 +1,3 @@
-import juice from "juice";
-
 export default interface PluginOptions {
   /**
    * Which blocks to add.
@@ -23,14 +21,8 @@ export default interface PluginOptions {
    * Import command id.
    * @default 'gjs-open-import-template'
    */
+
   cmdOpenImport?: string;
-
-  /**
-   * Get inlined HTML command id.
-   * @default 'gjs-get-inlined-html'
-   */
-  cmdInlineHtml?: string;
-
   /**
    * If `true`, inline CSS on export.
    * @default true
@@ -72,12 +64,6 @@ export default interface PluginOptions {
    * @default 'hopscotch'
    */
   codeViewerTheme?: string;
-
-  /**
-   * Custom options for `juice` HTML inliner.
-   * @default {}
-   */
-  juiceOpts?: juice.Options;
 
   /**
    * Ostendis translations
